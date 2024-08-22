@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratham</title>
+
+    <!-- SCROLL ANIMATION FILE -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!-- ICONSCOUT FILE -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="message-box message-box-error" data-aos="fade-up" data-aos-delay="100">
+       <i class="uil uil-exclamation-triangle"></i>
+        <span class="message-text"><strong>Error:</strong> This website is only compatible with desktop devices.</span>
+      </div>
+      <div class="message-box message-box-success" data-aos="fade-up" data-aos-delay="1000">
+        <i class="uil uil-check-circle"></i>
+        <span class="message-text" ><strong>Message:</strong> Thank you for your understanding.</span>
+      </div>
+        <div id="content">
+        <!-- Your website content goes here -->
+    
+
+    <!-- /* NAVBAR  < ===========================*/ -->
+    
+    <nav>
+        <div class="container nav_container">
+            <a href="#index.html">Pratham</a>
+            <button class="nav_theme_btn">
+                <i class="uil uil-moon"></i>
+            </button>
+        </div>
+    </nav>
+    
+    <!-- /* FLOATING NAVBAR  < ===========================*/ -->
+    <menu class="floating_nav">
+        <a href="#" class="active"><i class="uil uil-estate"></i></a>
+        <a href="#resume"><i class="uil uil-file-info-alt"></i></a>
+        <a href="#projects"><i class="uil uil-briefcase-alt"></i></a>
+        <a href="#contact"><i class="uil uil-envelopes"></i></a>
+        <!-- <a href=""><i class="uil uil-estate"></i></a> -->
+    </menu>
+    
+    
+    <!-- /* HEADER  < ===========================*/ -->
+    
+    <header>
+        <div class="header_container">
+            <div class="header_image" data-aos="fade-up" data-aos-delay="500">
+                <img id="myGif" src="./assets/output-onlinegiftools.gif" alt="">
+            </div>
+            <h5 data-aos="fade-in">Hi, I'm Pratham 👋🏽</h5>
+            <h1 data-aos="fade-in">Fullstack <span>Web Developer</span><br>Base in India</h1>
+            <p data-aos="fade-in">
+                Passionate web developer with a knack for transforming ideas into dynamic, user-friendly websites that leave a lasting impression.
+            </p>
+            <div class="header_cta" data-aos="fade-in" >
+                <a href="#projects" class="btn">My Projects</a>
+                <a href="#contact" class="btn primary">Hire me</a>
+            </div>
+            
+            <menu class="header_socials">
+                <a href="https://github.com/prathamjpatel"><i class="uil uil-github-alt"></i></a>
+                <a href="https://www.linkedin.com/in/pratham093/"><i class="uil uil-linkedin-alt"></i></a>
+                <a href="https://www.instagram.com/7prthm/"><i class="uil uil-instagram"></i></a>
+                <a href="https://x.com/7prthmm"><i class="uil uil-twitter-alt"></i></a>
+            </menu>
+        </div>
+    </header>
+    
+    
+    <!-- /* RESUME  < ===========================*/ -->
+    
+    <section id="resume">
+        <div class="container resume_container" data-aos="fade-in" data-aos-delay="200">
+            <div class="resume_left">
+                <h1>Why Hire me?</h1>
+                <p>I am  always ready to embrace new challenges.</p>
+                <menu>
+                    <button class="btn primary about_btn"> About me</button>
+                    <button class="btn skills_btn"> Skills</button>
+                    <button class="btn education_btn"> Education</button>
+                    <!-- <button class="btn experience_btn"> Experience</button> -->
+                </menu>
+            </div>
+            <div class="resume_right">
+                
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    
+    <!-- /* PROJECTS  < ===========================*/ -->
+    
+    <section class="projects" id="projects">
+        <h1>Projects</h1>  
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, aspernatur.
+        </p>
+        <menu class="projects_categories">
+            <button class="btn primary" data-filter="*">All</button>
+            <button class="btn " data-filter=".frontend">Frontend</button>
+            <button class="btn " data-filter=".fullstack">Fullstack</button>
+            <button class="btn " data-filter=".uiux">UI / UX</button>
+        </menu>
+        <div class="container projects_container" data-aos="fade-in" data-aos-delay="200">
+            
+            
+            <article class="project mix frontend" data-order="1">
+                <div class="project_image">
+                    <img src="./assets/p1.png" alt="">
+                </div>
+                <h5>Personal Portfolio Website (Frontend)</h5>
+                <p>HTML , CSS , JavaScript</p>
+                <div class="project_cta">
+                    <a href="https://prthm.netlify.app" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="https://github.com/prathamjpatel/My-Portfolio-Website" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+            
+            
+            <article class="project mix frontend" data-order="2">
+                <div class="project_image">
+                    <img src="./assets/p2.png" alt="">
+                </div>
+                <h5>Online Tools Website (Frontend)</h5>
+                <p>HTML , CSS , JavaScript</p>
+                <div class="project_cta">
+                    <a href="https://toolverse.netlify.app" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="https://github.com/prathamjpatel/My-Portfolio-Website" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+            
+            
+            <article class="project mix frontend" data-order="3">
+                <div class="project_image">
+                    <img src="./assets/p3.png" alt="">
+                </div>
+                <h5>E-commerce Website (Frontend)</h5>
+                <p>HTML , CSS , JavaScript</p>
+                <div class="project_cta">
+                    <a href="https://prthm.netlify.app" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="https://github.com/prathamjpatel/My-Portfolio-Website" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+            
+            
+            <article class="project mix fullstack" data-order="4">
+                <div class="project_image">
+                    <img src="./assets/p4.png" alt="">
+                </div>
+                <h5>Job Portal (Fullstack)</h5>
+                <p>MERN Stack</p>
+                <div class="project_cta">
+                    <a href="https://prthm.netlify.app" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="https://github.com/prathamjpatel/My-Portfolio-Website" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+            
+            
+            <article class="project mix uiux" data-order="5">
+                <div class="project_image">
+                    <img src="./assets/p4.png" alt="">
+                </div>
+                <h5>Personal Portfolio Website (Figma)</h5>
+                <p>Figma</p>
+                <div class="project_cta">
+                    <a href="https://prthm.netlify.app" class="btn primary" target="_blank"><i class="uil uil-link"></i></a>
+                    <a href="https://github.com/prathamjpatel/My-Portfolio-Website" class="btn" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </article>
+            
+        </div>
+    </section>
+    
+    
+    <!-- /* CONTACT FORM  < ===========================*/ -->
+     <section id="contact">
+        <div class="container contact_container">
+            <menu class="contact_options">
+                <a href="mailto:prathampatel8685@gmail.com" class="contact_option" target="_blank">
+                    <i class="uil uil-envelope-alt"></i>
+                </a>
+
+                <a href="tel+91123456789" class="contact_option" target="_blank">
+                    <i class="uil uil-phone-alt"></i>
+                </a>
+
+                <a href="https://www.instagram.com/7prthm/" class="contact_option" target="_blank">
+                    <i class="uil uil-instagram"></i>
+                </a>
+                
+            </menu>
+            <form action="https://api.web3forms.com/submit" method="POST" data-aos="fade-up" data-aos-delay="200">
+                <input type="hidden" name="access_key" value="121a7bd5-e599-4d44-8114-a851554e6b91">
+                <input type="text" name="Name" placeholder="Full Name" required>
+                <input type="email" name="Email" placeholder="Email Address" required>
+                <textarea rows="7" name="Message" placeholder="Message" ></textarea>
+                <button type="submit" class="btn primary"> Send </button>
+            </form>
+        </div>
+     </section>
+    </div>
+    
+    <!-- JAVA-SCRIPT FILE -->
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({duration: 2000 , Offset:80});
+    </script>
+    
+    <script src="patrickkunka-mixitup-61dac05/dist/mixitup.min.js"></script>
+</body>
+</html>
